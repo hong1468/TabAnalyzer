@@ -1,0 +1,223 @@
+/**/
+/* GENERAL STYLES */
+/**/
+.restore-all{
+	width:80px;
+	height:30px;
+	background-color: rgba(188, 240, 239, 0.5);
+    border: none;
+    padding: 15px 0;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+	cursor: pointer;
+	border-radius:10px;
+	padding:7px;
+}
+
+.navbar-brand {
+	font-style: bold;
+	font-family: 'Ubuntu', 'Gothic A1', Arial, Liberation Sans, sans-serif;
+}
+
+button {
+	font-family: 'Ubuntu', 'Gothic A1', Arial, Liberation Sans, sans-serif;
+}
+
+body {
+	background: #fff;
+	color: #333;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+header {
+	margin-top: 20px;
+	margin-left: 10px;
+	padding: 5px;
+	font-family: 'Ubuntu', 'Gothic A1', Arial, Liberation Sans, sans-serif;
+}
+
+button {
+	width: 100%;
+}
+
+#wrapper {
+	margin: 3%;
+	padding: 5px;
+	font-family: 'Ubuntu', 'Gothic A1', Arial, Liberation Sans, sans-serif;
+	/*display: float;*/
+	position: relative;
+}
+
+#sidebar-wrapper {
+	float: left;
+	position: relative;
+}
+
+
+/**/
+/* GROUPS RELATED STYLES */
+/**/
+
+/*
+#container {
+	margin: 3%;
+	padding: 5px;
+	font-family: Arial, Liberation Sans, sans-serif;
+	display: flex;
+}
+#groups {
+	margin: 10px 0;
+	padding-left: 10px;
+	display: grid;
+}
+
+.group:first-of-type {
+	margin-top: 10px;
+}*/
+.group-title{
+	width: 250px;
+}
+
+.group-name-sub {
+	font-size: 20px;
+	color: rgba(208, 17, 106, 0.747);
+}
+
+.group-name0 {
+	background-color: rgb(213, 252, 239);
+	display: table;
+	font-size: 1.5em;
+	clear: both;
+}
+
+.group-name1 {
+	background-color: rgb(255, 150, 127, 0.3);
+	display: table;
+	font-size: 1.5em;
+	clear: both;
+}
+
+.group-name2 {
+	background-color: rgb(166, 181, 254, 0.3);
+	display: table;
+	font-size: 1.5em;
+	clear: both;
+}
+.toggle{
+	margin-right:10px;
+	margin-left:10px;
+}
+.group {
+	margin: 10px;
+	border: 2px;
+	border-style: solid;
+	border-width: 0.5px;
+	padding: 0.5em;
+	border-radius: 20px;
+	display: flex;
+}
+
+.outergroup {
+	border-style: ridge;
+	width: 60rem;
+	margin: 10px 10px 30px 5px;
+	border-width: 0.5px;
+	padding: 0.5em;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #808B96;
+}
+
+
+#groups {
+	float: left;
+	position: relative;
+}
+
+.group_amount {
+	font-size: 1rem;
+}
+
+.group-date {
+	opacity: 0.7;
+}
+
+.restore-all {
+	margin-left: 5px;
+	cursor: pointer;
+	font-size: 0.7rem;
+}
+
+.restore-all:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+ul {
+	margin-left: 2em;
+	font-size: 1rem;
+}
+
+li {
+	list-style-type: none;
+}
+
+.delete-link {
+	font-size: .9em;
+	font-weight: bold;
+	background: #fff;
+	color: #000;
+
+	display: inline-block;
+	border-radius: 1em;
+	padding: 0 .3em;
+	margin-right: 10px;
+}
+
+.delete-link:before {
+	content: "X";
+}
+
+*:hover>.delete-link {
+	background: #aaa;
+}
+
+.delete-link:hover {
+	background: red;
+	cursor: pointer;
+}
+
+.link,
+.link:visited {
+	color: black;
+	text-decoration: none;
+	padding: .2em;
+}
+
+.link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/**/
+/* HEADER STYLES */
+/**/
+
+h1 {
+	font-size: 3em;
+}
+
+header {
+	border-bottom: 1px solid #f6f6f6;
+}
+
+/**/
+/* FOOTER STYLES */
+/**/
+
+footer {
+	border-top: 1px solid #f6f6f6;
+}

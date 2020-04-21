@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/reset.min.css">
+	<link rel="stylesheet" href="popup.css">
+	<script src="assets/prefixfree.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Gothic+A1|Ubuntu&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<div id="title">
+			<div id='item1' style="font-size: 25px;">Tab Analyzer</div>
+	</div>
+
+	<div id="container">
+		<div id="menu" class="grid-container">
+
+			<div class="wrapper">
+				<p>카테고리</p>
+				<textarea id="folderName" type="text" name="folderName" value="url loading" rows="3" cols="40"></textarea>
+			</div>
+
+			<div class="wrapper">
+				<p id="title">탭 제목</p>
+				<textarea id="tabTitle" type="text" name="url" value="url loading" rows="3" cols="40"></textarea>
+			</div>
+
+			<div class="wrapper" style="display:none;">
+				<p id="title">탭 주소</p>
+				<textarea id="input" type="text" name="url" value="url loading" rows="3" cols="40"></textarea>
+			</div>
+
+			<div class="row">
+				<div id="save-tab" class="menu-entry" style="background-color:rgba(170, 221, 222, 0.3)">Save Tab</div>
+			</div>
+			<div class="row" style="display: none;">
+				<div id="save-all" class="menu-entry">Save All</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="jquery.js"></script>
+	<script src="googleNLP.js"></script>
+	<script src="popup.js"></script>
+	<script src="tablisteditor.html"></script>
+	<script src="tablisteditor.js"></script>
+
+</body>
+</html>

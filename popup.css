@@ -1,0 +1,73 @@
+body{
+	min-width: 300px;
+	font-family: 'Ubuntu','Gothic A1', sans-serif;
+	padding: 0.3rem;
+}
+#item1 {
+	text-align: center;
+}
+
+.menu-entry {
+	text-align: center;
+	background: #fefefe;
+	padding: 10px;
+}
+#folderName{
+	border-radius: 10px;
+	padding:10px;
+	text-align: center;
+}
+#tabTitle{
+	border-radius: 10px;
+	padding:10px;
+	text-align: center;
+}
+
+#save-tab{
+	margin-top:10px;
+	align-content: center;
+	border-radius: 10px;
+
+}
+.menu-entry:hover {
+	cursor: pointer;
+	background: #f0f0f0;
+}
+
+#open-background-page {
+	border-top: 1px solid #eee;
+}
+
+/**/
+/* grid stuff */
+/**/
+
+.grid-container {
+	width: 100%;
+}
+
+.grid-container * {
+	box-sizing: border-box;
+}
+
+/* clearfix hack */
+.row:before,
+.row:after {
+	content: "";
+	display: table ;
+	clear: both;
+}
+
+[class*='col-'] {
+	float: left;
+	min-height: 1px;
+	border-right: 1px solid #eee;
+}
+
+[class*='col-']:last-of-type {
+	border-right: 0;
+}
+
+.col-1-2 {
+	width: 50%;
+}

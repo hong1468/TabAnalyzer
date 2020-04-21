@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tab Analyzer Options</title>
+	<link rel="stylesheet" href="assets/reset.min.css">
+	<link rel="stylesheet" href="options.css">
+	<script src="assets/prefixfree.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Tab Analyzer<span style="font-size: .6em;">   옵션</span></h1>
+		</header>
+
+		<div id="options">
+			<div class="option">
+			
+			<div class="desc">
+					<p>"Save tab" 클릭시:</p>
+				</div>
+				<div class="choices">
+					<p><label for="closeTabsOpt"><input type="radio" name="closeTabsOpt" value="yes"> 띄워져 있는 탭 지우기</label></p>
+					<p><label for="closeTabsOpt"><input type="radio" name="closeTabsOpt" value="no"> 띄워져 있는 탭 놔두기</label></p>
+				</div>
+				<p>&nbsp;</p>
+			
+				<div class="desc">
+					<p>"Open all" 클릭 시:</p>
+				</div>
+				<div class="choices">
+					<p><label for="deleteTabOnOpen"><input type="radio" name="deleteTabOnOpen" value="yes"> 저장된 목록에서 모두 지우기</label></p>
+					<p><label for="deleteTabOnOpen"><input type="radio" name="deleteTabOnOpen" value="no"> 저장된 목록에서 지우지 않기</label></p>
+				</div>
+				<p>&nbsp;</p>
+				<div class="desc">
+					<p>Url 보여주기:</p>
+				</div>
+				<div class="choices">
+					<p><label for="displayUrls"><input type="radio" name="displayUrls" value="yes"> 네</label></p>
+					<p><label for="displayUrls"><input type="radio" name="displayUrls" value="no"> 아니요</label></p>
+				</div>
+				<p>&nbsp;</p>
+				<!--
+				<div class="desc">
+					<p>url 정렬:</p>
+				</div>
+				<div class="choices">
+					<p><label for="orderUrls"><input type="radio" name="orderUrls" value="yes"> Yes</label></p>
+					<p><label for="orderUrls"><input type="radio" name="orderUrls" value="no"> No</label></p>
+				</div>
+				-->
+			</div>
+			<button name="save">옵션 저장</button>
+			<div id="saved">Options saved.</div>
+		</div>
+
+		
+	</div>
+
+	<script src="assets/jquery.min.js"></script>
+	<script src="options.js"></script>
+</body>
+</html>
